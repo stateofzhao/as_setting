@@ -1,0 +1,14 @@
+<templateSet group="AndroidComments">
+  <template name="fixme" value="// FIXME: $date$ $user$ $todo$" description="adds //FIXME" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="todo" value="// TODO: $date$ $user$ $todo$ " description="adds //TODO" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

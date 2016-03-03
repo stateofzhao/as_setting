@@ -1,0 +1,13 @@
+<templateSet group="AndroidLog">
+  <template name="logt" value="/** 日志用tag */&#10;private static final String TAG = &quot;$className$&quot;" description="根据当前类名创建tag" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="className" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>

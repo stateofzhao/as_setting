@@ -1,0 +1,14 @@
+<templateSet group="other">
+  <template name="license" value="/*&#10; * The MIT License (MIT)&#10; * &#10; * Copyright (c) 2015 陈冲&#10; * &#10; * Permission is hereby granted, free of charge, to any person obtaining a&#10; * copy of this software and associated documentation files (the &quot;Software&quot;),&#10; * to deal in the Software without restriction, including without limitation&#10; * the rights to use, copy, modify, merge, publish, distribute, sublicense,&#10; * and/or sell copies of the Software, and to permit persons to whom the Software&#10; * is furnished to do so, subject to the following conditions:&#10; * The above copyright notice and this permission notice shall be included in&#10; * all copies or substantial portions of the Software.&#10; * &#10; * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR&#10; * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS&#10; * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR&#10; * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER&#10; * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION&#10; * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10; */" description="增加开源许可声明" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Declaration/Split Declaration and Initialization" />
+    <ignoreAction name="Declaration/Split Declaration" />
+  </component>
+</application>

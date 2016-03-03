@@ -1,0 +1,58 @@
+<templateSet group="Android">
+  <template name="bug" value="//#$name$ by $user$ $date$&#10;//$des$" description="增加bug描述" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="des" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="consts" value="/**$des$*/&#10;private static final String $name$ = $value$;" description="添加字符串常量" toReformat="true" toShortenFQNames="true">
+    <variable name="des" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="const" value="/**$des$*/&#10;private static final int $name$ = $value$;" description="Define android style int constant" toReformat="true" toShortenFQNames="true">
+    <variable name="des" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="NAME" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="bugm" value="//!begin #$bugNo$ by $user$ $date$&#10;//$des$&#10;//!end #$bugNo$ by $user$ $date$" description="增加bug描述(多行)" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="bugNo" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="user" expression="user()" defaultValue="" alwaysStopAt="false" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="des" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="key" value="/**$des$*/&#10;private static final String KEY_$key$ = &quot;$value$&quot;;" description="Key for a bundle" toReformat="true" toShortenFQNames="true">
+    <variable name="des" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
