@@ -1,6 +1,5 @@
 <application>
   <component name="HttpConfigurable">
-    <option name="USE_PROXY_PAC" value="true" />
     <option name="PROXY_HOST" value="cbsimailproxy.cnet.com" />
     <option name="PROXY_PORT" value="3128" />
   </component>
