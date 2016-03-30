@@ -2,13 +2,13 @@
   <component name="FileTypeManager" version="16">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="areas" type="PLAIN_TEXT" />
-      <mapping pattern="readme" type="PLAIN_TEXT" />
       <mapping pattern="forum_index_activity" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="areas" type="PLAIN_TEXT" />
       <mapping pattern="testdddd" type="PLAIN_TEXT" />
-      <mapping pattern="JSON" type="PLAIN_TEXT" />
       <mapping pattern="urls" type="PLAIN_TEXT" />
+      <mapping pattern="JSON" type="PLAIN_TEXT" />
+      <mapping pattern="readme" type="PLAIN_TEXT" />
       <mapping ext="mk" type="PLAIN_TEXT" />
       <mapping ext="aar" type="PLAIN_TEXT" />
       <mapping ext="so" type="PLAIN_TEXT" />
